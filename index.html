@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+    <!-- Boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Glide js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.css">
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="./css/styles.css" />
+
+
+
+    <title>AFS Mart</title>
+    <link rel="shortcut icon" href="assets/img/AFS2.png" type="image/x-icon" />
+ 
+ 
+     <link href="assets/css/bootstrap.css" rel="stylesheet" />
+   <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+   <link href="assets/css/flexslider.css" rel="stylesheet" />
+     <link href="assets/css/style.css" rel="stylesheet" />    
+
+     <link  href="doctor-single.html">
+     <link  href="blog-single.html">
+
+
+
+    
+  </head>
+  <body>
+
+    
+ <div class="navbar navbar-inverse navbar-fixed-top " id="menu">
+  <div class="container">
+      <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img class="logo-custom" src="assets/img/AFS2.png" alt=""  /></a>
+      </div>
+      <div class="navbar-collapse collapse move-me">
+          <ul class="nav navbar-nav navbar-right">
+              <li ><a href="index.html">Home</a></li>
+               <li><a href="product.html">Shop</a></li>
+           
+               <li><a href="about.html">About</a></li>
+            
+              
+				
+          <li class="nav-item"> <a class="nav-link" href="blog-sidebar.html">Blog</a></li>
+				
+      <li><a href="signup.html">Contact</a></li>
+
+
+
+
+
+
+
+
+
+      <li><a  href="#features-sec" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#ln"> SIGN IN </a></li>
+  <li><a  href="#features-sec" class="btn btn-success btn-lg" data-toggle="modal" data-target="#su">SIGN UP</a></li>
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+               
+          </ul>
+      </div>
+     
+  </div>
+</div>
+
+ <div class="home-sec" id="home" >
+     <div class="overlay">
+<div class="container">
+     <div class="row text-center " >
+     
+         <div class="col-lg-12  col-md-12 col-sm-12">
+         
+          <div class="flexslider set-flexi" id="main-section" >
+              <ul class="slides move-me">
+                  <!-- Slider 01 -->
+                  <li>
+                        <h3>High Quality Products</h3>
+                     <h1>WHAT ARE YOU WAITING FOR? SHOP NOW!</h1>
+
+<!-- 
+                      <a  href="#features-sec" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#ln">
+                          SIGN IN
+                      </a>
+                       <a  href="#features-sec" class="btn btn-success btn-lg" data-toggle="modal" data-target="#su">
+                          SIGN UP
+                      </a>
+        
+        <a  href="#features-sec" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#an">
+                          ADMIN
+                      </a>
+
+                       -->
+                  </li>
+                  <!-- End Slider 01 -->
+                  
+                  <!-- Slider 02 -->
+                  <li>
+                      <h3>High Quality Products</h3>
+                     <h1>WE HAVE WHAT YOU NEED</h1>
+
+
+                       
+
+
+                  </li>
+                  <!-- End Slider 02 -->
+                  
+                  <!-- Slider 03 -->
+                  <li>
+                      <h3>High Quality  Products</h3>
+                     <h1>WE HAVE ALL BRANDS</h1>
+
+
+
+
+
+
+                  </li>
+                  <!-- End Slider 03 -->
+              </ul>
+          </div>
+             
+
+        
+        
+      </div>
+          
+         </div>
+          </div>
+     </div>
+     
+ </div>
+
+
+
+
+
+
+
+
+
+ <!--HOME SECTION END-->   
+
+
+
+
+ <div class="modal fade" id="su" tabindex="-1" role="dialog" aria-labelledby="myMediulModalLabel">
+  <div class="modal-dialog modal-sm">
+    <div style="color:white;background-color:#008CBA" class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Registration Form</h4>
+      </div>
+      <div class="modal-body">
+    
+
+ <form role="form" method="post" action="register.php">
+           <fieldset>
+  
+      <div class="form-group">
+                        <input class="form-control" placeholder="Firstname" name="ruser_firstname" type="text" required>
+      </div>
+      
+      <div class="form-group">
+                        <input class="form-control" placeholder="Lastname" name="ruser_lastname" type="text" required>
+      </div>
+      
+      <div class="form-group">
+                        <input class="form-control" placeholder="Address" name="ruser_address" type="text" required>
+      </div>
+      
+                    <div class="form-group">
+                        <input class="form-control" placeholder="Email" name="ruser_email" type="email" required>
+      </div>
+      
+      <div class="form-group">
+                        <input class="form-control" placeholder="Password" name="ruser_password" type="password" required>
+      </div>
+   
+   </fieldset>
+          
+    
+      </div>
+      <div class="modal-footer">
+       
+        <button class="btn btn-md btn-warning btn-block" name="register">Sign Up</button>
+
+ <button type="button" class="btn btn-md btn-danger btn-block" data-dismiss="modal">Cancel</button>
+   </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Script -->
+
+
+<div class="modal fade" id="ln" tabindex="-1" role="dialog" aria-labelledby="myMediulModalLabel">
+  <div class="modal-dialog modal-sm">
+    <div style="color:white;background-color:#008CBA" class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 style="color:white" class="modal-title" id="myModalLabel">Customer Login</h4>
+      </div>
+      <div class="modal-body">
+    
+
+ <form role="form" method="post" action="userlogin.php">
+           <fieldset>
+  
+    
+                    <div class="form-group">
+                        <input class="form-control" placeholder="Email" name="user_email" type="email" required>
+      </div>
+      
+      <div class="form-group">
+                        <input class="form-control" placeholder="Password" name="user_password" type="password" required>
+      </div>
+   
+   </fieldset>
+          
+    
+      </div>
+      <div class="modal-footer">
+       
+        <button class="btn btn-md btn-warning btn-block" name="user_login">Sign In</button>
+
+ <button type="button" class="btn btn-md btn-danger btn-block" data-dismiss="modal">Cancel</button>
+   </form>
+   
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="an" tabindex="-1" role="dialog" aria-labelledby="myMediulModalLabel">
+  <div class="modal-dialog modal-sm">
+   <div style="color:white;background-color:#008CBA" class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 style="color:white" class="modal-title" id="myModalLabel">Administrator Credentials</h4>
+      </div>
+      <div class="modal-body">
+    
+
+ <form role="form" method="post" action="adminlogin.php">
+           <fieldset>
+  
+    
+                    <div class="form-group">
+                        <input class="form-control" placeholder="Username" name="admin_username" type="text" required>
+      </div>
+      
+      <div class="form-group">
+                        <input class="form-control" placeholder="Password" name="admin_password" type="password" required>
+      </div>
+   
+   </fieldset>
+          
+    
+      </div>
+      <div class="modal-footer">
+       
+        <button class="btn btn-md btn-warning btn-block" name="admin_login">Login</button>
+
+ <button type="button" class="btn btn-md btn-danger btn-block" data-dismiss="modal">Cancel</button>
+   </form>
+      </div>
+    </div>
+  </div>
+</div>
+<br />
+<br />
+<br />
+<!-- Script -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    <!-- Categories Section -->
+    <section class="section category">
+      <div class="cat-center">
+        <div class="cat">
+          <img src="./images/cat3.jpg" alt="" />
+          <div>
+            <p>WOMEN'S WEAR</p>
+          </div>
+        </div>
+        <div class="cat">
+          <img src="./images/cat2.jpg" alt="" />
+          <div>
+            <p>ACCESSORIES</p>
+          </div>
+        </div>
+        <div class="cat">
+          <img src="./images/cat1.jpg" alt="" />
+          <div>
+            <p>MEN'S WEAR</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- New Arrivals -->
+    <section class="section new-arrival">
+      <div class="title">
+        <h1>NEW ARRIVALS</h1>
+        <p>All the latest picked from designer of our store</p>
+      </div>
+
+      <div class="product-center">
+        <div class="product-item">
+          <div class="overlay">
+            <a href="productDetails.html" class="product-thumb">
+              <img src="./images/product-1.jpg" alt="" />
+            </a>
+          </div>
+          <div class="product-info">
+            <span>MEN'S CLOTHES</span>
+            <a href="productDetails.html">Quis Nostrud Exercitation</a>
+            <h4>$700</h4>
+          </div>
+         
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="productDetails.html" class="product-thumb">
+              <img src="./images/product-3.jpg" alt="" />
+            </a>
+            <span class="discount">50%</span>
+          </div>
+
+          <div class="product-info">
+            <span>MEN'S CLOTHES</span>
+            <a href="productDetails.html">Sonata White Men’s Shirt</a>
+            <h4>$800</h4>
+          </div>
+        
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="productDetails.html" class="product-thumb">
+              <img src="./images/product-2.jpg" alt="" />
+            </a>
+          </div>
+          <div class="product-info">
+            <span>MEN'S CLOTHES</span>
+            <a href="productDetails.html">Concepts Solid Pink Men’s Polo</a>
+            <h4>$150</h4>
+          </div>
+          <!-- <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul> -->
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="productDetails.html" class="product-thumb">
+              <img src="./images/product-4.jpg" alt="" />
+            </a>
+            <span class="discount">50%</span>
+          </div>
+          <div class="product-info">
+            <span>MEN'S CLOTHES</span>
+            <a href="productDetails.html">Edor do eiusmod tempor</a>
+            <h4>$900</h4>
+          </div>
+          <!-- <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul> -->
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="productDetails.html" class="product-thumb">
+              <img src="./images/product-5.jpg" alt="" />
+            </a>
+          </div>
+          <div class="product-info">
+            <span>MEN'S CLOTHES</span>
+            <a href="productDetails.html">Edor do eiusmod tempor</a>
+            <h4>$100</h4>
+          </div>
+          <!-- <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul> -->
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="productDetails.html" class="product-thumb">
+              <img src="./images/product-6.jpg" alt="" />
+            </a>
+          </div>
+          <div class="product-info">
+            <span>MEN'S CLOTHES</span>
+            <a href="productDetails.html">Edor do eiusmod tempor</a>
+            <h4>$500</h4>
+          </div>
+          <!-- <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul> -->
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="productDetails.html" class="product-thumb">
+              <img src="./images/product-7.jpg" alt="" />
+            </a>
+            <span class="discount">50%</span>
+          </div>
+          <div class="product-info">
+            <span>MEN'S CLOTHES</span>
+            <a href="productDetails.html">Edor do eiusmod tempor</a>
+            <h4>$200</h4>
+          </div>
+          <!-- <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul> -->
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="productDetails.html" class="product-thumb">
+              <img src="./images/product-2.jpg" alt="" />
+            </a>
+          </div>
+          <div class="product-info">
+            <span>MEN'S CLOTHES</span>
+            <a href="productDetails.html">Edor do eiusmod tempor</a>
+            <h4>$560</h4>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Promo -->
+
+    <section class="section banner">
+<div class="left">
+  <span class="trend">Trend Design</span>
+  <h1>New Collection 2021</h1>
+  <p>New Arrival <span class="color">Sale 50% OFF</span> Limited Time Offer</p>
+  <a href="#" class="btn btn-1">Discover Now</a>
+</div>
+<div class="right">
+  <img src="./images/banner.png" alt="">
+</div>
+    </section>
+
+
+
+
+    <!-- Featured -->
+  
+    <section class="section new-arrival">
+      <div class="title">
+        <h1>Featured</h1>
+        <p>All the latest picked from designer of our store</p>
+      </div>
+
+      <div class="product-center">
+        <div class="product-item">
+          <div class="overlay">
+            <a href="productDetails.html" class="product-thumb">
+              <img src="./images/product-7.jpg" alt="" />
+            </a>
+            <span class="discount">50%</span>
+          </div>
+          <div class="product-info">
+            <span>MEN'S CLOTHES</span>
+            <a href="productDetails.html">Quis Nostrud Exercitation</a>
+            <h4>$700</h4>
+          </div>
+          
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="productDetails.html" class="product-thumb">
+              <img src="./images/product-4.jpg" alt="" />
+            </a>
+          </div>
+
+          <div class="product-info">
+            <span>MEN'S CLOTHES</span>
+            <a href="productDetails.html">Sonata White Men’s Shirt</a>
+            <h4>$800</h4>
+          </div>
+         
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="productDetails.html" class="product-thumb">
+              <img src="./images/product-1.jpg" alt="" />
+            </a>
+            <span class="discount">40%</span>
+          </div>
+          <div class="product-info">
+            <span>MEN'S CLOTHES</span>
+            <a href="productDetails.html">Concepts Solid Pink Men’s Polo</a>
+            <h4>$150</h4>
+          </div>
+         
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="productDetails.html" class="product-thumb">
+              <img src="./images/product-6.jpg" alt="" />
+            </a>
+          </div>
+          <div class="product-info">
+            <span>MEN'S CLOTHES</span>
+            <a href="productDetails.html">Edor do eiusmod tempor</a>
+            <h4>$900</h4>
+          </div>
+         
+        </div>
+
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact">
+      <div class="row">
+        <div class="col">
+          <h2>EXCELLENT SUPPORT</h2>
+          <p>We love our customers and they can reach us any time
+          of day we will be at your service 24/7</p>
+          <a href="" class="btn btn-1">Contact</a>
+        </div>
+        <div class="col">
+          <form action="">
+            <div>
+              <input type="email" placeholder="Email Address">
+            <a href="">Send</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="row">
+        <div class="col d-flex">
+          <h4>INFORMATION</h4>
+          <a href="">About us</a>
+          <a href="">Contact Us</a>
+          <a href="">Term & Conditions</a>
+          <a href="">Shipping Guide</a>
+        </div>
+        <div class="col d-flex">
+          <h4>USEFUL LINK</h4>
+          <a href="">Online Store</a>
+          <a href="">Customer Services</a>
+          <a href="">Promotion</a>
+          <a href="">Top Brands</a>
+        </div>
+        <div class="col d-flex">
+          <span><i class='bx bxl-facebook-square'></i></span>
+          <span><i class='bx bxl-instagram-alt' ></i></span>
+          <span><i class='bx bxl-github' ></i></span>
+          <span><i class='bx bxl-twitter' ></i></span>
+          <span><i class='bx bxl-pinterest' ></i></span>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="footer">
+      <a style="color: #fff" target="_blank">Design by : AFS Mart</a>
+    </div>
+     <!-- FOOTER SECTION END-->
+   
+    <!--  Jquery Core Script -->
+    <script src="assets/js/jquery-1.10.2.js"></script>
+    <!--  Core Bootstrap Script -->
+    <script src="assets/js/bootstrap.js"></script>
+    <!--  Flexslider Scripts --> 
+         <script src="assets/js/jquery.flexslider.js"></script>
+     <!--  Scrolling Reveal Script -->
+    <script src="assets/js/scrollReveal.js"></script>
+    <!--  Scroll Scripts --> 
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <!--  Custom Scripts --> 
+         <script src="assets/js/custom.js"></script>
+    
+
+
+
+
+
+
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+  <script src="./js/slider.js"></script>
+  <script src="./js/index.js"></script>
+</html>
